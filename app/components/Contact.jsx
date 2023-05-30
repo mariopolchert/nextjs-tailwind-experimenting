@@ -4,7 +4,7 @@ const Contact = () => {
         <div
             name="contact"
             id="contact"
-            className="contact-container h-screen w-screen"
+            className="contact-container h-screen w-screen scroll-smooth"
         >
             <div className="contact-content bg-rose-950 h-[95vh] w-full flex flex-col items-center justify-center text-white snap-center">
                 <h1 className="text-[5rem]">Contact</h1>

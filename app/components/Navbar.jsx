@@ -1,8 +1,15 @@
 import Image from "next/image";
 
 const Navbar = () => {
+    // $('a').click(function(){
+    //     $('html, body').animate({
+    //         scrollTop: $( $(this).attr('href') ).offset().top
+    //     }, 500);
+    //     return false;
+    // });
+
     return (
-        <div className="navbar-container fixed bg-gray-600 h-[10vh] w-screen flex justify-between align-middle opacity-80">
+        <div className="navbar-container fixed bg-darkText h-[10vh] w-screen flex justify-between align-middle opacity-80 ">
             <div className="logo p-10">
                 <a
                     className="cursor-pointer"
@@ -20,7 +27,7 @@ const Navbar = () => {
                 </a>
             </div>
             <div className="menu">
-                <ul className="links-container flex p-8 pr-16 space-x-5 text-[1.5rem] cursor-pointer">
+                <ul className="links-container flex p-8 pr-16 space-x-5 text-[1.5rem] cursor-pointer text-lightText">
                     <a href="#hero">
                         <li>Hero</li>
                     </a>

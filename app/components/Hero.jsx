@@ -1,7 +1,7 @@
 const Hero = () => {
     return (
         <div name="hero" id="hero" className="hero-container h-screen w-screen">
-            <div className="hero-content bg-[#222] h-full w-full flex flex-col items-center justify-center text-white">
+            <div className="hero-content bg-darkText h-full w-full flex flex-col items-center justify-center text-white">
                 <div className="intro w-1/2">
                     <h1 className="text-[5rem]">Hero</h1>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.

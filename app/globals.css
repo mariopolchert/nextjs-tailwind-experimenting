@@ -16,7 +16,23 @@
   }
 }
 
-body {
+/* Solved smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+/*************************/
+
+TODO /* Maybe try to get snap scrolling, not working for now */
+main {
+  scroll-snap-type: y mandatory;
+}
+
+#hero, #about, #tools, #work, #contact {
+  scroll-snap-align: center;
+}
+/**************************************************************/
+
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +40,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */

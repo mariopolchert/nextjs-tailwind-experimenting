@@ -21,11 +21,21 @@ const Navbar = () => {
             </div>
             <div className="menu">
                 <ul className="links-container flex p-8 pr-16 space-x-5 text-[1.5rem] cursor-pointer">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Tools</li>
-                    <li>Work</li>
-                    <li>Contact</li>
+                    <a href="#hero">
+                        <li>Hero</li>
+                    </a>
+                    <a href="#about">
+                        <li>About</li>
+                    </a>
+                    <a href="#tools">
+                        <li>Tools</li>
+                    </a>
+                    <a href="#work">
+                        <li>Work</li>
+                    </a>
+                    <a href="#contact">
+                        <li>Contact</li>
+                    </a>
                     {/* <a
                         href="#contact"
                         className="transform transition-all duration-700"
